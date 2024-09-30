@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+</head>
+<body>
+
+    <!--Nav Bar-->
+
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <!--Side  Navbar-->
+    <div class="side-navbar"  onclick="closeNavbar()">
+        <p style="text-align:right">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact Us</a></p>
+        </div>
+    </div>
+
+    <!--Header-->
+
+    <div class="header">
+        <div>
+            <h1>Level up your style</h1>
+            <p>with our stunning collections</p>
+            <button class="header-button">Shop Now</button>
+        </div>
+
+        <div>
+            <img class="header-img" src="./assets/images/download.jpg"  alt="fashion image">
+        </div>
+
+    </div>
+
+    <!--Service-->
+
+    <div class="service">
+        <div class="service-container-1">
+            <div>
+                <h2>We Provide Best</h2>
+                <h2>Customer Experience</h2>
+            </div>
+
+            <div>
+                <p>|| We ensure that our customer have the best shop in experirnce</p>
+            </div>
+        </div>
+        <div class="service-container-2">
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>Satisfaction guarantee</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor </p>
+            </div>
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>New Arrival Everyday</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor </p>
+            </div>
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>Fast & Free Shipping</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor </p>
+            </div>
+        </div>
+    </div>
+
+    <!--New Arrival-->
+
+    <div style="padding: 20px;">
+        <h2 style="padding: 20px;">New Arrival</h2>
+
+        <div class="new-arrival">
+            <div class="new-arrival-container">
+                <img src="./assets/images/download (3).jpg" alt="fashion image">
+                <button>Shop Now</button>
+            </div>
+            <div class="new-arrival-container">
+                <img src="./assets/images/download (6).jpg" alt="fashion image">
+                <button>Shop Now</button>
+            </div>
+            <div class="new-arrival-container">
+                <img src="./assets/images/download (1).jpg" alt="fashion image">
+                <button>Shop Now</button>
+            </div>
+            <div class="new-arrival-container">
+                <img src="./assets/images/images (3).jpg" alt="fashion image">
+                <button>Shop Now</button>
+            </div>
+           
+        </div>
+    </div>
+
+    <!--Most Wanted-->
+
+
+    <div style="padding: 20px;">
+        <h2 style="padding: 20px;">Most Wanted</h2>
+
+        <div class="new-arrival">
+            <div class="new-arrival-container">
+                <img src="./assets/images/images (5).jpg" alt="fashion image">
+                <button>Shop Now</button>
+            </div>
+            <div class="new-arrival-container">
+                <img src="./assets/images/images (10).jpg" alt="fashion image">
+                <button>Shop Now</button>
+            </div>
+            <div class="new-arrival-container">
+                <img src="./assets/images/images (6).jpg" alt="fashion image">
+                <button>Shop Now</button>
+            </div>
+            <div class="new-arrival-container">
+                <img src="./assets/images/images (2).jpg" alt="fashion image">
+                <button>Shop Now</button>
+            </div>
+           
+        </div>
+    </div>
+
+    
+
+    <!--News-->
+
+    <div class="news">
+        <h2>Join our News Letter</h2>
+        <p>SignUp for our email newsletter to get exclusive discounts and updates and more</p>
+        <div>
+            <input type="text" class="search">
+        </div>
+
+        <div>
+            <button>Subscribe</button>
+        </div>
+    </div>
+
+    <!--Footer-->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus error incidunt repudiandae ipsum hic? Laudantium!</p>
+                <div class="footers-icon-container">
+                    <i class="fa-brands fa-instagram" style="color:#ffffff"></i>
+                    <i class="fa-brands fa-twitter" style="color:#ffffff"></i>
+                    <i class="fa-brands fa-facebook" style="color:#ffffff"></i>
+
+                </div>
+            </div>
+
+        </div>
+
+        <p>@ 2024 Nostra.com</p>
+    </div> 
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
